@@ -1,9 +1,10 @@
-import Header from "./components/AppBar";
+import { PTHeader } from "./components/header/PTHeader";
+import { PTInput } from "./components/input/PTInput";
 
 function App() {
   return (
     <>
-      <Header />
+      <PTHeader />
     </>
   );
 }

@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import styled from "@emotion/styled";
 
-export default function Header() {
+export const PTHeader = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <StyledAppBar position="static">
@@ -18,7 +18,7 @@ export default function Header() {
       </StyledAppBar>
     </Box>
   );
-}
+};
 
 const StyledAppBar = styled(AppBar)`
   background-color: #2e3859;
