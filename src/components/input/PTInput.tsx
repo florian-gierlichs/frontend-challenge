@@ -13,5 +13,5 @@ export const PTInput = ({ inputHandler }: InputProps) => {
     inputHandler(value);
   };
 
-  return <input value={input} onChange={handleChange} />;
+  return <input type="text" value={input} onChange={handleChange} />;
 };
