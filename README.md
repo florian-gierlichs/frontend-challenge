@@ -45,20 +45,24 @@ Here are some challenges that you can tackle together with your interview partne
 
 - Please implement a functionality to add a new product.
 
-## 2. Unit test
-
-- Please build a simple component with some user interaction and write a unit test for it.
-
-  - jest and testing-library/react is already installed and ready to use
-
-## 3. Fix and render component PTTabs
+## 2. Fix and render component PTTabs
 
 - Please have a look at `src/components/tabs/PTTabs.tsx` and render it in the App.
 
   - The component is supposed to have a working tab switch to show different content
 
-## 4. Evaluate code snippet
+## 3. Evaluate code snippet
 
 - Please take a look at ./.../abc and share your thoughts about the code.
+
+## 4. Unit test
+
+- Please build a simple component with some user interaction and write a unit test for it.
+
+  - jest and testing-library/react is already installed and ready to use
+
+## 5. Discuss how to improve the app
+
+- Imagine this would be a real application in production. How would you improve the project?
 
 # Happy Coding :heart: :rocket:
