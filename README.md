@@ -38,10 +38,12 @@ Here are some challenges that you can tackle together with your interview partne
 
 ## 1. Fetch API
 
-Please extend this application by fetching and displaying some products from the api above.
+- Please extend this application by fetching and displaying some products from the api above.
 
-- There is no requirement on how to do this, it's up to you
-- Material UI and styled-components is already installed and ready to use
+  - There is no requirement on how to do this, it's up to you
+  - Material UI and styled-components is already installed and ready to use
+
+- Please implement a functionality to add a new product.
 
 ## 2. Unit test
 
@@ -56,3 +58,5 @@ Please build a simple component with some user interaction and write a unit test
 ## 4. Evaluate code snippet
 
 - Please take a look at ./.../abc and share your thoughts about the code.
+
+# Happy Coding :heart: :rocket:
