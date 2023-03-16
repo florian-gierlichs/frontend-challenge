@@ -31,8 +31,11 @@ function TabPanel(props: TabPanelProps) {
   );
 }
 
+const numbers = ["1", "2", "3"];
+
 export const PTTabs = () => {
   const [value, setValue] = useState(0);
+  const [number, setNumber] = useState(numbers[value]);
   let selectedValue;
 
   const handleChange = (event: SyntheticEvent, newValue: number) => {
@@ -41,6 +44,7 @@ export const PTTabs = () => {
 
   const hanldeValueChange: any = (v: string) => {
     selectedValue = v;
+    setNumber(numbers[value]);
   };
 
   return (
@@ -70,6 +74,7 @@ export const PTTabs = () => {
       <StyledSelectedValue>
         Selected value is: {selectedValue}
       </StyledSelectedValue>
+      <StyledSelectedValue>Selected number is: {number}</StyledSelectedValue>
     </>
   );
 };
