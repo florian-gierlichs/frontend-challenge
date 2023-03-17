@@ -42,7 +42,7 @@ export const PTTabs = () => {
     setValue(newValue);
   };
 
-  const hanldeValueChange: any = (v: string) => {
+  const handleValueChange: any = (v: string) => {
     selectedValue = v;
     setNumber(numbers[value]);
   };
@@ -56,9 +56,9 @@ export const PTTabs = () => {
             onChange={handleChange}
             aria-label="basic tabs example"
           >
-            <Tab onClick={hanldeValueChange("Item One")} label="Item One" />
-            <Tab onClick={hanldeValueChange("Item Two")} label="Item Two" />
-            <Tab onClick={hanldeValueChange("Item Three")} label="Item Three" />
+            <Tab onClick={handleValueChange("Item One")} label="Item One" />
+            <Tab onClick={handleValueChange("Item Two")} label="Item Two" />
+            <Tab onClick={handleValueChange("Item Three")} label="Item Three" />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>

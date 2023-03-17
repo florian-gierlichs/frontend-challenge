@@ -49,9 +49,10 @@ Here are some challenges that you can tackle together with your interview partne
 
 - Please have a look at `src/components/tabs/PTTabs.tsx` and render it in the App.
 
+  - You may run into some problems rendering it correctly...
   - The component is supposed to have a working tab switch to show different content
 
-## 3. Evaluate code snippet
+## 3. Evaluate code snippet (not ready yet)
 
 - Please take a look at ./.../abc and share your thoughts about the code.
 
