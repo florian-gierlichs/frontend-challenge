@@ -54,7 +54,7 @@ Here are some challenges that you can tackle together with your interview partne
 
 ## 3. Evaluate code snippet (not ready yet)
 
-- Please take a look at ./.../abc and share your thoughts about the code.
+- Please take a look at `src/code-review.ts` and share your thoughts about the code.
 
 ## 4. Unit test
 
