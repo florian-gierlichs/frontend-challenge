@@ -52,9 +52,9 @@ Here are some challenges that you can tackle together with your interview partne
   - You may run into some problems rendering it correctly...
   - The component is supposed to have a working tab switch to show different content
 
-## 3. Evaluate code snippet (not ready yet)
+## 3. Code review
 
-- Please take a look at `src/code-review.ts` and share your thoughts about the code.
+- Please take a look at `src/code-review.ts` and give some feedback on the code.
 
 ## 4. Unit test
 
